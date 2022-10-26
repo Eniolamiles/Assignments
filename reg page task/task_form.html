@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <center>
+    <body id="login2">
+      <h1>REGISTRATION FORM</h1>
+      <form action="login_page.html">
+        <table>
+          <tr>
+            <td><label for="firstname">First Name:</label></td>
+            <td>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="first name"
+                maxlength="15"
+                minlength="3"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="lastname">Last Name:</label></td>
+            <td><input type="text" placeholder="last name"</td>
+          </tr>
+
+          <tr>
+            <td><label for="phonenumber">Phone Number:</label></td>
+            <td>
+              <input
+                type="tel"
+                placeholder="123-23-2345"
+                name="number"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input type="email" placeholder="email" name="email" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <select name="sex" id="Gender">
+                <option value="select  ">select..</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="prefernottosay">Prefer not to say</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td>
+              <input
+                type="date"
+                name="dob"
+                max="2020-01-01"
+                min="1900-01-01"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="favoritecolor">Favorite Color:</label></td>
+            <td><input type="color" id="color" required /></td>
+          </tr>
+        </table>
+        <div>
+        <button type="submit"> Register</button>
+        <a href="login_page.html">Already a mmember?</a>
+        </div>
+      </form>
+    </body>
+  </center>
+</html>

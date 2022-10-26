@@ -1,0 +1,19 @@
+#login2{
+ background-image: url("https://images.unsplash.com/photo-1663743657975-9483c8ad0d48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+ background-repeat: no-repeat;
+ background-size: cover;
+  color: black;
+}
+
+#login1{
+  background-image:url("https://images.unsplash.com/photo-1658953229664-e8d5ebd039ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white
+} 
+    
+#submit_1{
+  background-color: black;
+color: white;
+text-align: center;
+}

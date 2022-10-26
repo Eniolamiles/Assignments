@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <center>
+    <body id="login1">
+      <h1>LOGIN NOW</h1>
+      <form action="submit_page.html">
+        <table id="table1">
+          <tr>
+            <td><label for="email">Email:*</label></td>
+            <td>
+              <input type="email" placeholder="Enter email address"name="Email" required/>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="pwd">Password:*</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter password"
+                name="password"
+                pattern="(?=,*\d)(?=.*{a-z})(?=.*{A-Z}).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter,and at least 8 or more characters"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+
+        <input type="checkbox" name="Remember me" />
+        <label for="checkbox"
+          >Remember me
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+            href="Forgetpassword?"
+            target="_blank"
+            >Forget password?</a
+          ></label>
+        <div>
+          <footer>
+            <button type="submit">Login</button>
+          </footer>
+        </div>
+      </form>
+    </body>
+  </center>
+</html>
